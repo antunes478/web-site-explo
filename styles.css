@@ -1,0 +1,330 @@
+/* Estilos de cabeçalho e navegação */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed; /* Tornar o cabeçalho fixo */
+    width: 100%; /* Garantir que a largura seja 100% da largura da tela */
+    z-index: 1000; /* Definir uma alta ordem de empilhamento para garantir que a barra de navegação esteja na frente do conteúdo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centralizar os itens do menu */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; /* Adicionar preenchimento aos itens do menu */
+}
+
+/* Aplicar estilos específicos para o link ativo */
+nav ul li a.active {
+    background-color: #333; /* Altere conforme necessário para destacar o link ativo */
+}
+
+/* Adicionar preenchimento superior ao corpo para evitar que o conteúdo fique oculto sob a barra de navegação */
+body {
+    padding-top: 60px; /* Ajuste conforme a altura da barra de navegação */
+}/* Estilos de cabeçalho e navegação */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed; /* Tornar o cabeçalho fixo */
+    width: 100%; /* Garantir que a largura seja 100% da largura da tela */
+    z-index: 1000; /* Definir uma alta ordem de empilhamento para garantir que a barra de navegação esteja na frente do conteúdo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centralizar os itens do menu */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; /* Adicionar preenchimento aos itens do menu */
+}
+
+/* Aplicar estilos específicos para o link ativo */
+nav ul li a.active {
+    background-color: #333; /* Altere conforme necessário para destacar o link ativo */
+}
+
+/* Adicionar preenchimento superior ao corpo para evitar que o conteúdo fique oculto sob a barra de navegação */
+body {
+    padding-top: 60px; /* Ajuste conforme a altura da barra de navegação */
+}
+/* Estilos de cabeçalho e navegação */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
+
+/* Adicionando margem superior para compensar a altura do header */
+body {
+    margin-top: 70px; /* Ajuste conforme necessário */
+}   
+/* Estilos da seção herói */
+.hero {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do botão */
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos da seção de menu */
+.menu {
+    padding: 50px 0;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    font-size: 18px;
+}
+
+/* Estilos da seção de reservas */
+.reservas {
+    padding: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos da seção de galeria */
+.galeria {
+    padding: 50px 0;
+}
+
+.galeria .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem {
+    margin: 10px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.sobre {
+    padding: 50px 0;
+}
+
+.sobre p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos da seção de contato */
+.contato {
+    padding: 50px 0;
+}
+.galeria {
+    padding: 50px 0;
+}
+
+.galeria .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem {
+    margin: 10px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.sobre {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.sobre .container {
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sobre p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Estilos da seção de contato */
+.contato {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contato .container {
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contato p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato .form-group {
+    margin-bottom: 20px;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato textarea {
+    height: 150px;
+}
+
+.contato button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contato button[type="submit"]:hover {
+    background-color: #555;
+    color: #fff;
+}
